@@ -39,3 +39,6 @@ function router() {
 
 router()
 window.addEventListener("hashchange",router)
+
+import {run} from "./chapter06/src/index"
+run();
